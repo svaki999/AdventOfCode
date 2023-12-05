@@ -3,10 +3,9 @@
     static void Main()
     {
         string? filePath = "input.json";
-
-        int sum = 0;
-
         string[] lines = File.ReadAllLines(filePath);
+        
+        int sum = 0;
 
         foreach (string line in lines)
         {
